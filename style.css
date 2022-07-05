@@ -121,6 +121,7 @@ input[type="text"]{
 .donate-plan-content img{
     height: 80px;
     width: 80px;
+    margin-top: 20px;
 }
 .donate-plan-content h3{
     font-size: 30px;
@@ -129,7 +130,7 @@ input[type="text"]{
 #donate-plan .donate-plan-content p{
     font-size: 20px !important;
     font-weight: 500;
-    margin: 0;
+    width: 100%;
 }
 .donate-plan-content .plan-item-1{
     background-color: #ECF4F5;
@@ -154,4 +155,83 @@ input[type="text"]{
     height: 500px;
     width: 33%;
 }
-
+#help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.help-left{
+    text-align: left;
+    width: 50%;
+    padding-right: 50px;
+}
+.help-left h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.help-left p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.help-left a{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.help-left .volunteer-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color:#0B3E03;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+.help-right img{
+    height: 100%;
+    box-shadow: 2px 2px 20px #000;
+}
+#who-are-help{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 150px;
+}
+.who-are-help-content{
+    width: 70%;
+    margin: 0 auto;
+}
+.who-are-help-content p{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.feature-btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #FF5958;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.contact-btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    border:2px solid #FF5958;
+    border-radius: 5px;
+    margin-right: 10px;
+}
