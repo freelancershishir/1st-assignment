@@ -1,0 +1,85 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#main-header{
+    background-image: url(images/donation4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    padding: 100px 100px;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+}
+.header-content h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+.header-content p{
+    font-size: 25px;
+    margin-bottom: 80px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.header-content .donate-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    background-color:#FF5958;
+    padding: 13px 20px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+#donate-today{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.donate-today-content{
+    text-align: center;
+    width: 60%;
+}
+.donate-today-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.donate-today-content p{
+    font-size: 25px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.amount-selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.amount-selection li{
+    list-style: none;
+    padding:40px 20px;
+    background-color: #eee;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: #6F6F6F;
+}
+.active-amount{
+    background-color: #FFEDED !important;
+    border: 3px solid #FF5958;
+    color: #FF5958 !important;
+    
+}
