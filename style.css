@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 1100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,17 +24,17 @@ body{
     font-weight: 900;
 }
 .header-content p{
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 80px;
     font-weight: 500;
     line-height: 35px;
 }
-.header-content .donate-btn{
+.donate-btn{
     text-decoration: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     background-color:#FF5958;
-    padding: 13px 20px;
+    padding: 20px 25px;
     border-radius: 7px;
     font-weight: 600;
 }
@@ -51,7 +51,7 @@ body{
     width: 60%;
 }
 .donate-today-content h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
 }
 .donate-today-content p{
@@ -68,18 +68,84 @@ body{
 }
 .amount-selection li{
     list-style: none;
-    padding:40px 20px;
+    padding:50px 20px;
     background-color: #eee;
-    margin-right: 20px;
+    margin-right: 30px;
     font-weight: 700;
     font-size: 40px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 7px;
     color: #6F6F6F;
 }
 .active-amount{
     background-color: #FFEDED !important;
     border: 3px solid #FF5958;
-    color: #FF5958 !important;
-    
+    color: #FF5958 !important;  
 }
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 50px 50px;
+    padding: 15px 0;
+    outline: none;
+    margin-left: -2px;
+}
+#donate-plan{
+    text-align: center;
+    margin-top: 300px;
+}
+.donate-plan-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+    padding: 20px 20px;
+}
+#donate-plan h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+#donate-plan p{
+    font-size: 25px;
+    margin-bottom: 100px !important;
+    font-weight: 500;
+    line-height: 35px;
+    width: 60%;
+    margin: 0 auto;
+}
+.donate-plan-content img{
+    height: 120px;
+    width: 120px;
+}
+.donate-plan-content h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+#donate-plan .donate-plan-content p{
+    font-size: 27px !important;
+    font-weight: 500;
+    margin: 0;
+}
+.donate-plan-content .plan-item-1{
+    background-color: #ECF4F5;
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.donate-plan-content .plan-item-2{
+    background-color: #FFEDED;
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.donate-plan-content .plan-item-3{
+    background-color: #FEF3D6;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+
