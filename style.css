@@ -119,33 +119,39 @@ input[type="text"]{
     margin: 0 auto;
 }
 .donate-plan-content img{
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
 }
 .donate-plan-content h3{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
 }
 #donate-plan .donate-plan-content p{
-    font-size: 27px !important;
+    font-size: 20px !important;
     font-weight: 500;
     margin: 0;
 }
 .donate-plan-content .plan-item-1{
     background-color: #ECF4F5;
-    padding: 40px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     margin-right: 20px;
+    height: 500px;
+    width: 33%;
 }
 .donate-plan-content .plan-item-2{
     background-color: #FFEDED;
-    padding: 40px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     margin-right: 20px;
+    height: 500px;
+    width: 33%;
 }
 .donate-plan-content .plan-item-3{
     background-color: #FEF3D6;
-    padding: 40px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
+    height: 500px;
+    width: 33%;
 }
 
