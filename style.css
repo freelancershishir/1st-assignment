@@ -76,10 +76,17 @@ body{
     width: 150px;
     border-radius: 7px;
     color: #6F6F6F;
+    border: 3px solid #ddd;
+    cursor: pointer;
+}
+.amount-selection li:hover {
+    background-color: #FFEDED;
+    border: 3px solid #FF5958;
+    color: #FF5958;
 }
 .active-amount{
     background-color: #FFEDED !important;
-    border: 3px solid #FF5958;
+    border: 3px solid #FF5958 !important;
     color: #FF5958 !important;  
 }
 input[type="text"]{
